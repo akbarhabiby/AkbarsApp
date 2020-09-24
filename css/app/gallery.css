@@ -1,0 +1,34 @@
+/* What you gonna do? */
+#things {
+    padding: 20% 0px 0px 0px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 50;
+    color: black;
+    font-family: 'Fira Code', monospace;
+    margin: 3vh;
+}
+
+/* Things to do Menu */
+section div ul li {
+    padding: 15px;
+    display: inline-block;
+}
+
+section div ul {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Fira Code', monospace;
+    color: black;
+    text-decoration: none;
+    padding: 0;
+}
+
+section div ul a li:hover {
+    color: #ef8f22;
+}
+
+/* Each Color for Things to do */
+section div ul a {
+    color: #000;
+}

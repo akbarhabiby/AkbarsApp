@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>AkbarHabiby</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+        <link rel="stylesheet" href="../css/app/music.css">
+        <link rel="stylesheet" href="../css/style.css">
+    </head>
+    <body onload="play1()">
+        <audio id="myAudio">
+            <source id="currentmusic" src="music/la-di-da.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+          </audio>
+        <header>
+            <nav>
+                <ul>
+                    <a href="../">
+                        <li>Go Back</li>
+                    </a>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <h1 id="things" class="size-200 fira-code-bold">What song do you hear? Score <span id="result"></span></h1>
+            <div class="main">
+                <ul>
+                    <input type="button" id="first" value="A. La Di Da"><li></li>
+                    <input type="button" id="second" value="B. Paris In The Rain"><li></li>
+                    <input type="button" id="third" value="C. Nandemonaiya"><li></li>
+                </ul>
+            </div>
+        </section>
+        <div class="footer">
+            <h5>Copyright &copy; 2020 by <a href="https://github.com/akbarhabiby">AkbarHabiby</a></h5>
+        </div>
+        <script src="../js/app/music.js"></script>
+    </body>
+</html>
